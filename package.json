@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "compile": "tsc initiaize.ts && tsc ./src/db/mysql_connection.ts && node initiaize.js"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "najax": "^1.0.7"
+  }
+}
