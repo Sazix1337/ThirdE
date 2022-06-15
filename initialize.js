@@ -1,4 +1,4 @@
-const $db = require('./src/db/mysql_connection')
+const $db = require('./db/mysql_connection')
 const readline = require('readline')
 const $ = require('najax')
 const uuid = require('./lib/uuid')
